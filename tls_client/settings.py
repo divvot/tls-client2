@@ -83,4 +83,5 @@ ClientIdentifiers: TypeAlias = Literal[
     "confirmed_android_11",
     "confirmed_android_12",
     "confirmed_android_13",
+    "ios_18_0"
 ]
