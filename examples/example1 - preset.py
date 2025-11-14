@@ -14,8 +14,7 @@ import tls_client
 # more client identifiers can be found in settings.py
 
 session = tls_client.Session(
-    client_identifier="chrome112",
-    random_tls_extension_order=True
+    client_identifier="ios_18_0",
 )
 
 res = session.get(
@@ -23,5 +22,4 @@ res = session.get(
     headers={
         "key1": "value1",
     },
-    proxy="http://user:password@host:port"
 )

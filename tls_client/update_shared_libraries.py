@@ -1,7 +1,7 @@
 import requests
 
 def update_libraries():
-    shared_library_version = "1.11.2-4"
+    shared_library_version = "1.11.2-5"
 
     github_download_url = "https://github.com/divvot/tls-client/releases/download/v{}/{}"
     github_repo_filenames = [
